@@ -1,0 +1,19 @@
+.encabezado{
+    background-color: lightblue;
+}
+.encabezado h1, h2{
+    color: white;
+}
+.encabezado img{
+    height: 400px;
+}
+.rowlenguajes img{
+    transition: transform 1s ease-in-out;
+}
+
+.rowlenguajes img:hover{
+    transform: scale(1.3);
+}
+.filaform{
+    width: 60%;
+}
