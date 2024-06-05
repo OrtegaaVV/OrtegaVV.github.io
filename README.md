@@ -1,0 +1,2 @@
+# Mi proyecto
+Este proyecto trata de un portafolio sobre mi y mis conocimientos en diferentes aplicaciones de programacion, mis proyectos ya creados, por ultimo hay un formulario donde se envian todos los datos correspondientes. Hecho por Vicente Ortega.
