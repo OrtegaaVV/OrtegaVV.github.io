@@ -11,17 +11,17 @@
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
           <div class="container-fluid">
-            <a class="navbar-brand" href="#">Sobre mí</a>
+            <a class="navbar-brand" href="#sobremi">Sobre mí</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Conocimientos</a>
+                  <a class="nav-link active" aria-current="page" href="#conocimientos">Conocimientos</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Proyectos</a>
+                  <a class="nav-link" href="#proyectos">Proyectos</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Formulario</a>
@@ -47,7 +47,7 @@
      </header>
      <br>
 <main>
-  <div class="container">
+  <div class="container" id="sobremi">
     <div class="accordion mt-5" id="accordionExample">
       <div class="accordion-item">
         <h2 class="accordion-header ">
@@ -69,7 +69,7 @@
   <br>
   <br>
   <div>
-    <div>
+    <div id="conocimientos">
       <h2 >Mis conocimientos</h2>
       <div class="container px-4 text-center">
         <div class="row gx-5">
@@ -84,7 +84,7 @@
       
     </div>
     <br>
-    <div class="container text-center">
+    <div class="container text-center" id="proyectos">
       <div class="row row-cols-2 row-cols-md-6 rowlenguajes">
         <div class="col">
           <img src="721791.png" alt="Logo Java script" class="img-fluid">
@@ -113,7 +113,7 @@
     </div>
     <br>
     <div class="container">
-      <div class="row row-cols-1 row-cols-md-4 g-4">
+      <div class="row row-cols-1 row-cols-md-3 g-3">
         <div class = "col">
           <div class="card">
             <img src="GOOOl.png" class="card-img-top" alt="ProyectoScratch">
@@ -125,18 +125,73 @@
           </div>
   
         </div>
+        <div class = "col">
+          <div class="card">
+            <img src="Gatoo.png" class="card-img-top" alt="ProyectoScratch">
+            <div class="card-body">
+              <h5 class="card-title">Tom y jerry</h5>
+              <p class="card-text">Este juego trata de un gato que tiene que atrapar al raton, antes de que se acabe el tiempo.</p>
+              <a href="https://scratch.mit.edu/projects/831501064" class="btn btn-primary">Ir al proyecto</a>
+            </div>
+          </div>
+  
+        </div>
+        <div class = "col">
+          <div class="card">
+            <img src="Laberintoratones.png" class="card-img-top" alt="ProyectoScratch">
+            <div class="card-body">
+              <h5 class="card-title">Laberinto de ratones</h5>
+              <p class="card-text">Este proyecto trata de un laberinto donde distintos ratones van hacia la comida.</p>
+              <a href="https://scratch.mit.edu/projects/830471469" class="btn btn-primary">Ir al proyecto</a>
+            </div>
+          </div>
+  
+        </div>
       </div>
     </div>
+    <br>
+    <br>
+    <div class="container mt-5">
+      <h3>Formulario de contacto</h3>
+      <form class="row g-3 mt-5 filaform">
+        <div class="col-md-2"></div>
+        <div class = "col-md-6"></div>
+        <div class="col-md-6">
+          <label for="nombre" class="form-label">Nombre</label>
+          <input type="text" class="form-control" id="nombre">
+        </div>
+        <div class="col-md-6">
+          <label for="apellido" class="form-label">Apellido</label>
+          <input type="text" class="form-control" id="apellido">
+        </div>
+        <div class="col-12">
+          <label for="inputEmail4" class="form-label">Email</label>
+          <input type="email" class="form-control" id="inputEmail4">
+        </div>
+        <div class="col-12">
+          <label for="asunto" class="form-label">Asunto</label>
+          <input type="text" class="form-control" id="asunto">
+        </div>
+        <div class="col-12">
+          <label for="mensaje" class="form-label">Mensaje</label>
+          <textarea class="form-control" id="textarea" rows="3"></textarea>
+        </div>
+       <div class="col-12">
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </div>
+      </form>
+      <div></div>
+
+
+    </div>
+  
    
-   
-      
+   </main>
+   <footer>
+    <p>C.2024 Vicente Ortega</p>
 
 
-
-
-
-    
- </main>
+   </footer>
 
 
 
